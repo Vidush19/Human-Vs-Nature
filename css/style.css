@@ -1,0 +1,284 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+.three{
+    height: 110vh;
+}
+.three img{
+    position:absolute;
+    object-fit: cover;
+}
+.bg{
+    height:110vh;
+    width:100%;
+    object-fit: cover;
+    z-index: -2;
+}
+.crowd{
+    height: 30vh;
+    top: 73vh;
+    width:100%;
+}
+
+
+.main{
+    position: absolute;
+    color: azure;
+    top:40%;
+    left:50%;
+    font-size: 5rem;
+    transform: translate(-50%,-40%);
+    
+}
+
+.sum{
+    min-height:100vh;
+    background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(92,92,92,1) 0%, rgba(0,0,0,1) 100%);
+    width:100%;
+    z-index: 2;
+    position: absolute;
+}
+
+.sum-images{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    min-height: 60vh;
+    padding: 100px;
+}
+
+.sticky{
+    position:fixed;
+    top:0%;
+    width:100%;
+}
+
+.sticky + .sum-images{
+    padding-top: 300px;
+}
+
+.navbar {
+    display:flex;
+    justify-content: center;
+    background-color: whitesmoke;
+    color: black;
+    text-transform: uppercase;
+    font-size: 1.5rem;
+}
+
+.navbar-links ul{
+    display:flex;
+}
+
+.navbar-links li{
+    list-style: none;
+}
+
+.navbar-links li a {
+    text-decoration: none;
+    color: black;
+    padding: 5vh 27vh;
+    display:block;
+}
+
+.navbar-links li:hover{
+    background-color: #002366;
+    
+}
+
+.navbar-links li:hover a{
+    color:white;
+}
+
+h4 {
+    padding: 0px 200px;
+}
+
+.sum-images h1 {
+    font-size:  2rem;
+    text-transform: uppercase;
+}
+
+.images p {
+    font-size: 1.4rem;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+.images img{
+    cursor: pointer;
+    border-radius: 20px;
+    border-style: solid;
+    border-width: 5px;
+    border-color: darkgrey;
+    -webkit-box-shadow: 12px 29px 81px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 12px 29px 81px 0px rgba(0,0,0,0.75);
+    box-shadow: 12px 29px 81px 0px rgba(0,0,0,0.75);
+}
+
+.author {
+    height: 5vh;
+    width: 100%;
+    position: absolute;
+    bottom: -2225px;
+    background-color: darkgray;
+    color: black;
+    z-index: 98;
+    padding: 0px 40%;
+}
+
+.rabbit {
+    border-radius: 20px; 
+    border-width: 15px; 
+    border-color: black;
+    width: 700px; 
+    height: 700px; 
+}
+
+.buttons {
+    display: flex;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    background: radial-gradient(circle, rgba(251,4,175,1) 0%, rgba(191,17,73,1) 49%, rgba(83,37,131,1) 100%);;
+    z-index: -100;
+}
+
+.button a{
+    position: relative;
+    top: 50%;
+    left: 5%;
+    z-index: 100;
+    width: 100%;
+    margin: 0px 100px;
+    text-decoration: none;
+    color: lightyellow;
+}
+
+.buttons div {
+    max-height: 10vh;
+    max-width: 40vh;
+    position: relative;
+    top: 50%;
+    left: 2%;
+    overflow: hidden;
+    margin: 0px 50px;
+}
+
+
+.relation {
+    background-color: slateblue;
+    border-radius: 20px;
+}
+
+.nd {
+    background-color: slateblue;
+    border-radius: 20px;
+}
+
+.impact {
+    background-color: slateblue;
+    border-radius: 20px;
+}
+.button a {
+    width: 100%;
+    height: 100%;
+    display: inline-block;
+    
+}
+
+.impact a{
+    position: relative;
+    left: -45px;
+    top: 25px;
+}
+.nd a {
+    position: relative;
+    left: -15px;
+    top: 25px;
+}
+
+.relation a {
+    position: relative;
+    left: -1px;
+    top: 25px;
+}
+
+.relation:hover {
+    background-color: #fff44f;
+}
+.impact:hover {
+    background-color: #fff44f;
+}
+.nd:hover{
+    background-color: #fff44f;
+}
+
+.nd:hover a{
+    color: black;
+}
+.impact:hover a{
+    color: black;
+}
+.relation:hover a{
+    color:black;
+}
+/*.buttons a {
+    display: flex;
+    top:50%;
+    position: fixed;
+    text-decoration: none;
+    width: 100%;
+    height: 10vh;
+    margin: 100px;
+    padding: 100px;
+    
+    background-color: slateblue;
+    height: 10vh;
+    width: 40vh;
+    border-radius: 50px;
+}
+.button .relation {
+    position: fixed;
+    left: 10%;
+    
+}*/
+/*
+.buttons a {
+    width: 100%;
+    height: 100%;
+    color: lightyellow;
+}
+.buttons a {
+    text-decoration: none;
+}
+.relation {
+    padding: 20px 100px;
+}
+.nd {
+    padding: 20px 75px;
+}
+.impact {
+    padding: 20px 50px;
+}
+
+.relation:hover{
+    background-color:#fff44f;
+    color:black;
+}
+
+.nd:hover{
+    background-color:#fff44f;
+    color:black;
+}
+
+.impact:hover{
+    background-color:#fff44f;
+    color:black;
+}
