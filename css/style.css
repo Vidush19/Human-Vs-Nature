@@ -97,11 +97,14 @@
 
 h4 {
     padding: 0px 200px;
+    color:	#D3D3D3;
+    font-size: 1.05rem;
 }
 
 .sum-images h1 {
     font-size:  2rem;
     text-transform: uppercase;
+    color: #9287B5;
 }
 
 .images p {
@@ -229,6 +232,9 @@ h4 {
 .relation:hover a{
     color:black;
 }
+
+
+
 /*.buttons a {
     display: flex;
     top:50%;
